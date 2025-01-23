@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Toronto
-description: with background image
+description: Toronto Sunset by Spadina st
 img: assets/img/TorontoSunset.jpg
 importance: 1
 category: pictures
