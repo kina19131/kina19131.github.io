@@ -75,7 +75,7 @@ ninja.data = [{
       },
     },{id: "projects-toronto",
           title: 'Toronto',
-          description: "with background image",
+          description: "Toronto Sunset by Spadina st",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
