@@ -2,23 +2,25 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://www.ibm.com/ca-en'>Affiliations</a>. 8200 warden ave. giyeon.kina.kim@ibm.com
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Linkedin: @giyeonkinakim</p>
+    <p>Current Address: Toronto, ON, Canada</p>
+    <p>Next Travel: Philadelphia</p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello, my name is Kina. I am currently working as a db2 cloud SWE at IBM. I've graduated from University of Toronto. 
+Hello! This is Kina Kim. I am currently working as a Db2 database Cloud SWE at IBM. What does that mean? Yes, if you go to loblaws, costco, winner, we make their database to store your records - you all use our product! 
+
+I've graduated from University of Toronto. I studied [Engineering Science] (https://engsci.utoronto.ca/program/what-is-engsci/), specializing in Machine Intelligence (https://engsci.utoronto.ca/program/majors/machine-intelligence/) - the AI/ML.  
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
