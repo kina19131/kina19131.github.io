@@ -208,6 +208,7 @@ exclude:
   - _posts/
   - _projects/?_project.md
   - assets/jupyter/blog.ipynb
+  - repositories
 
 keep_files:
   - CNAME
