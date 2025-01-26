@@ -93,29 +93,28 @@
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
+      "name": "Technical",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python",
+        "Go",
+        "IBM Cloud",
+        "PyTorch",
+        "Bash",
+        ""
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "Korean",
-      "fluency": "Native speaker",
-      "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "name": "Interpersonal",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Adaptability",
+        "Problem-Solving",
+        "Innovation",
+        "Collaboration",
+        "Communication",
+        "User-focused"
+      ]
     }
   ],
   "interests": [
@@ -131,16 +130,16 @@
       ]
     }
   ],
-  "references": [
+  "languages": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "language": "Korean",
+      "fluency": "Native speaker",
+      "icon": ""
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
     }
   ]
 }
