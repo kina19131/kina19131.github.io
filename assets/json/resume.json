@@ -21,6 +21,32 @@
       }
     ]
   },
+  "skills": [
+    {
+      "name": "Technical",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Python",
+        "Go",
+        "IBM Cloud",
+        "PyTorch",
+        "Bash",
+        ""
+      ]
+    },
+    {
+      "name": "Interpersonal",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Adaptability",
+        "Problem-Solving",
+        "Innovation",
+        "Collaboration",
+        "Communication",
+        "User-focused"
+      ]
+    }
+  ],
   "work": [
     {
       "name": "International Business Machine",
@@ -91,32 +117,6 @@
       "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
     }
   ],
-  "skills": [
-    {
-      "name": "Technical",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Python",
-        "Go",
-        "IBM Cloud",
-        "PyTorch",
-        "Bash",
-        ""
-      ]
-    },
-    {
-      "name": "Interpersonal",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Adaptability",
-        "Problem-Solving",
-        "Innovation",
-        "Collaboration",
-        "Communication",
-        "User-focused"
-      ]
-    }
-  ],
   "interests": [
     {
       "name": "ML/AI",
@@ -139,7 +139,6 @@
         "Performance"
       ]
     }
-    
   ],
   "languages": [
     {
