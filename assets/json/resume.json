@@ -1,12 +1,11 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Kina Kim",
+    "label": "Developer",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "kina19131@gmail.com",
+    "url": "https://kina19131.github.io",
+    "summary": "Software Engineer who loves being the bridge between Tech and Society",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -24,13 +23,13 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
+      "name": "International Business Machine",
+      "position": "Software Developer Engineer, Db2 Cloud",
+      "url": "https://www.ibm.com/ca-en?utm_content=SRCWW&p1=Search&p4=43700081273983553&p5=e&p9=58700008827428331&gad_source=1&gclid=EAIaIQobChMI-N-8os6SiwMVpl1_AB2Usid8EAAYASAAEgI9YfD_BwE&gclsrc=aw.ds",
+      "startDate": "2024-06-01",
+      "endDate": "present",
       "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "highlights": ["Cloud", "Db2"]
     }
   ],
   "volunteer": [
@@ -151,7 +150,7 @@
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Korean",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -163,15 +162,14 @@
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "ML/AI",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Explainable AI/ML",
+        "Generative AI",
+        "Graphical Neural Network",
+        "Reinforcement Learning",
+        "Robotics"
       ]
     }
   ],
