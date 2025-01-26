@@ -128,7 +128,18 @@
         "Reinforcement Learning",
         "Robotics"
       ]
+    },
+    {
+      "name": "Software",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Cloud",
+        "Reliability",
+        "Automation",
+        "Performance"
+      ]
     }
+    
   ],
   "languages": [
     {
