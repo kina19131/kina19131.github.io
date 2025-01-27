@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Toronto
+title: Cityscape
 description: Toronto Sunset by Spadina st
 img: assets/img/TorontoSunset.jpg
 importance: 1

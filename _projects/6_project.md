@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Nature
+title: Travel
 description: a project with no image
 img:
 importance: 3
