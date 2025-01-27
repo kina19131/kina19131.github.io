@@ -6,7 +6,7 @@ subtitle: <a href='https://www.ibm.com/ca-en'>Affiliations</a>. 8200 warden ave.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jepg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Linkedin: @giyeonkinakim</p>
@@ -24,7 +24,7 @@ Uhh... so what does that mean? If you shop at Loblaws, Costco, Winners or bank w
 I've graduated from University of Toronto.\
 I studied [Engineering Science](https://engsci.utoronto.ca/program/what-is-engsci/), specializing in [Machine Intelligence](https://engsci.utoronto.ca/program/majors/machine-intelligence/) - the AI/ML.  
 
-<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jepg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 

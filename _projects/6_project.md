@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 6
+title: Nature
 description: a project with no image
 img:
-importance: 4
+importance: 3
 category: hobbies
 ---
 

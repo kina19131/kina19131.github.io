@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
+title: Coffee
+description: dedication to explore cafe in all new countries
 img: assets/img/1.jpg
-importance: 3
+importance: 2
 category: hobbies
 ---
 

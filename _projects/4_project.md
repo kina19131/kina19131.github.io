@@ -1,15 +1,13 @@
 ---
 layout: page
-title: project 4
+title: Bike
 description: another without an image
 img:
-importance: 3
+importance: 1
 category: hobbies
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+I love exploring the city on a bike. I bike around 350 days out of 365 days. Yes, sometimes I do go out when there's snow outside (cause am in Canada). 
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
