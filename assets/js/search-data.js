@@ -52,13 +52,13 @@ ninja.data = [{
           window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
         
       },
-    },{id: "projects-toronto",
-          title: 'Toronto',
+    },{id: "projects-cityscape",
+          title: 'Cityscape',
           description: "Toronto Sunset by Spadina st",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
+            },},{id: "projects-nature",
+          title: 'Nature',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
@@ -77,8 +77,8 @@ ninja.data = [{
           description: "dedication to explore cafe in all new countries",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-nature",
-          title: 'Nature',
+            },},{id: "projects-travel",
+          title: 'Travel',
           description: "a project with no image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
