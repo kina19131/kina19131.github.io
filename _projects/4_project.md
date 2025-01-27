@@ -7,7 +7,8 @@ importance: 1
 category: hobbies
 ---
 
-I love exploring the city on a bike. I bike around 350 days out of 365 days. Yes, sometimes I do go out when there's snow outside (cause am in Canada). 
+I love exploring the city on a bike. I bike around 350 days out of 365 days. 
+Yes, sometimes I do go out when there's snow outside (cause am in Canada). 
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
