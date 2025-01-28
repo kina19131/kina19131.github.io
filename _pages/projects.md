@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Pictures
+title: Memories
 permalink: /projects/
-description: Things I love!
+description: People live on Memories. Welcome to my treasure box with all the moments I want to cherish. 
 nav: true
 nav_order: 3
 display_categories: [pictures, hobbies]
