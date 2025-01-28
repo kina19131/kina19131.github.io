@@ -10,15 +10,6 @@ category: hobbies
 I love exploring the city on a bike. I bike around 350 days out of 365 days. 
 Yes, sometimes I do go out when there's snow outside (cause am in Canada). 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/bike1.JPG" title="Welcome to Toronto" class="img-fluid rounded z-depth-1" %}
