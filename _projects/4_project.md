@@ -2,14 +2,12 @@
 layout: page
 title: Bike
 description: Biking around cities
-img:
+img:assets/img/bike6.png
 importance: 1
 category: hobbies
 ---
 
-I love exploring the city on a bike. I bike around 350 days out of 365 days. 
-Yes, sometimes I do go out when there's snow outside (cause am in Canada). 
-
+I love exploring the city on a bike. I bike roughly 350 days out of 365 days./
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/bike1.JPG" title="Welcome to Toronto" class="img-fluid rounded z-depth-1" %}
@@ -22,12 +20,25 @@ Yes, sometimes I do go out when there's snow outside (cause am in Canada).
     </div>
 </div>
 <div class="caption">
-    Biking here and there and everywhere
+    I love taking jump shots and that's not exception with bikes! 
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+
+Biking is somewhat integrated into my life. Yes that means I also bike through Canadian winter too. 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bike7.png" title="Welcome to Toronto" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bike8.png" title="Bike in Rain" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Biking in the winter hits different, esp on days with good weather!
+</div>
+
+
+Bike feels like a small break out of dailylife. I have discovered many small neighborhoods near downtown toronto or even extending to missisauga and they are great getaway to empty my mind. It is so refreshing to hit the road and feel the wind. 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -41,4 +52,4 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
     Oh yes I had to make sure no one was near when I took these shots
 </div>
 
-It is so refreshing to hit the road and feel the wind. 
+

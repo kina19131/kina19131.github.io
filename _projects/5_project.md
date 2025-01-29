@@ -7,18 +7,7 @@ importance: 2
 category: hobbies
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+I start my morning with Coffee. Yes, am the one who's like "don't touch me before my coffee." I love that caffiene and I love the taste of coffee. I personally prefer chocolate note (dark chocolate) than sour taste. If you know any good local cafes in Toronto, please hit me up! Also if you want some good cafe recos, hit me up, and I only give away if we go together hehe  
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -31,10 +20,11 @@ To give your project a background in the portfolio page, just add the img tag to
         {% include figure.liquid loading="eager" path="assets/img/coffee4.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    Taiwan, Niagara, Toronto
+</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Took my friends to Korea as our grad trip. In the middle of our traditional dress, hanbok, experience, I could not resist from dragging my buddies into one of my fav coffee places. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -44,4 +34,3 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
 <div class="caption">
     This hits differente
 </div>
-The best pair with coffee is a GOOD crossaint (yes am saying in French accent!)
