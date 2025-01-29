@@ -2,7 +2,7 @@
 layout: page
 title: Bike
 description: Biking around cities
-img:assets/img/bike6.png
+img: assets/img/bike6.png
 importance: 1
 category: hobbies
 ---
