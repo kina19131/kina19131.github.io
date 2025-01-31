@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Nature
-description: a project that redirects to another website
+description: back to mother nature 🌱
 img: assets/img/nature1.jpeg
 importance: 2
 category: pictures
 ---
 
-I love mother nature. Just taking some time between the trees and by the water, that's my dream way of taking time off. 
+I love mother nature. Just taking some time between the trees and by the water, that's my fav getaway. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

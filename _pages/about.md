@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://www.ibm.com/ca-en'>Affiliations</a>. 8200 warden ave. giyeon.kina.kim@ibm.com
 
