@@ -4,7 +4,7 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -23,8 +23,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-papers",
-          title: "papers",
+        },{id: "nav-paper",
+          title: "Paper",
           description: "Papers that I&#39;ve worked on.",
           section: "Navigation",
           handler: () => {
@@ -54,12 +54,12 @@ ninja.data = [{
       },
     },{id: "projects-cityscape",
           title: 'Cityscape',
-          description: "Toronto Sunset by Spadina st",
+          description: "📷 shots around the city",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-nature",
           title: 'Nature',
-          description: "a project that redirects to another website",
+          description: "back to mother nature 🌱",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-miscellaneous",
