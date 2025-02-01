@@ -64,7 +64,7 @@ ninja.data = [{
               window.location.href = "/projects/2_project/";
             },},{id: "projects-miscellaneous",
           title: 'miscellaneous',
-          description: "a project with a background image and giscus comments",
+          description: "rest of collections",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-bike",
