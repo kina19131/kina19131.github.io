@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cityscape
-description: 📷 shots around the city
+description: shots around the city 📷 
 img: assets/img/cityscape1.jpeg
 importance: 1
 category: pictures

@@ -6,7 +6,7 @@ img: assets/img/misc1.jpeg
 # redirect: https://unsplash.com
 importance: 3
 category: pictures
-giscus_comments: true
+giscus_comments: false
 ---
 
 Where I find my peace ☮ 
