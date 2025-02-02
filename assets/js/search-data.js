@@ -54,7 +54,7 @@ ninja.data = [{
       },
     },{id: "projects-cityscape",
           title: 'Cityscape',
-          description: "📷 shots around the city",
+          description: "shots around the city 📷",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-nature",
