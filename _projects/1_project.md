@@ -21,5 +21,20 @@ Nice pictures of different cities also reminder of places I've visited as an avi
     This image can also have a caption. It's like magic.
 </div>
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/city1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/city2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/city3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Never get tired of taking pictures of CN Tower
+</div>
+
 In todays where everything is so bustle hustle, it is easy to forget to look around and enjoy your time here on Earth. 
 I hope this reminds you to look up in the sky and admire the beautiful scenaries we are part of. 
