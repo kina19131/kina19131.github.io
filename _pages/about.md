@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>Linkedin: @giyeonkinakim</p>
     <p>Address: Toronto, ON, Canada</p>
-    <p>Next Travel: Philadelphia</p>
+    <p>Next Travel: Mila, Montreal</p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
