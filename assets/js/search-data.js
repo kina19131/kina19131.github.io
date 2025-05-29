@@ -16,19 +16,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-memories",
-          title: "Memories",
-          description: "People live on Memories. Welcome to my treasure box with all the moments I want to cherish.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
         },{id: "nav-paper",
           title: "Paper",
           description: "Papers that I&#39;ve worked on.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
+          },
+        },{id: "nav-memories",
+          title: "Memories",
+          description: "People live on Memories. Welcome to my treasure box with all the moments I want to cherish.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
           },
         },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
       
