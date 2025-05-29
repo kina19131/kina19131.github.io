@@ -4,7 +4,7 @@ permalink: /publications/
 title: Paper
 description: Papers that I've worked on. 
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 
 <!-- _pages/publications.md -->

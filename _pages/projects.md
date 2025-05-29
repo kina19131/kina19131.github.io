@@ -4,7 +4,7 @@ title: Memories
 permalink: /projects/
 description: People live on Memories. Welcome to my treasure box with all the moments I want to cherish. 
 nav: true
-nav_order: 3
+nav_order: 4
 display_categories: [pictures, hobbies]
 horizontal: false
 ---
