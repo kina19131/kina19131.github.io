@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /publications/
-title: Paper
-description: Papers that I've worked on. 
+title: Research
+description: Research collaboration I was part of. 
 nav: true
 nav_order: 3
 ---
