@@ -22,11 +22,10 @@ nav_order: 3
       </div>
 
       <div class="proj-tags">
-        <span class="proj-tag">PyTorch</span>
-        <span class="proj-tag">Adversarial ML</span>
         <span class="proj-tag">Fairness</span>
+        <span class="proj-tag">Adversarial ML</span>
+        <span class="proj-tag">Pytorch</span>
         <span class="proj-tag">Python</span>
-        <span class="proj-tag">React</span>
       </div>
 
       <div class="proj-stats">
@@ -41,7 +40,7 @@ nav_order: 3
           <blockquote>
             <strong>Ignored as Erin. Hired as Mack.</strong> Erin McKelvey applied to dozens of tech jobs &mdash; no callbacks. She switched to the name <em>Mack</em>. Her response rate jumped to 70%. Today, Mack is a CEO.
           </blockquote>
-          <p>Only 15% of tech CEOs are women. Amazon built an AI screener trained on mostly male r&eacute;sum&eacute;s &mdash; it penalized terms like &ldquo;women&rsquo;s college.&rdquo; They scrapped it. We built fAI to fix this.</p>
+          <p>Only 15% of tech CEOs are women. Amazon built an AI resume screener trained on mostly male r&eacute;sum&eacute;s &mdash; it penalized terms like &ldquo;women&rsquo;s college.&rdquo; They scrapped it. We built fAI to prevent such discriminations.</p>
 
           <h5>How it works</h5>
           <p>Two models trained in opposition: a <strong>classifier</strong> that predicts profession from a r&eacute;sum&eacute;, and an <strong>adversary</strong> that tries to guess gender from the classifier&rsquo;s output. If the adversary succeeds, the classifier is penalized. Over training cycles, it learns to carry no gender signal. The adversary is removed &mdash; leaving a fairer model.</p>
