@@ -20,8 +20,8 @@ social: true # includes social icons at the bottom of the page
 
 Hi, I'm Kina — a software engineer at [IBM](https://www.ibm.com/ca-en) sitting at the intersection of production systems and applied ML research.
 
-My day-to-day is building backend infrastructure for [Db2 on Cloud](https://www.ibm.com/docs/en/db2-as-a-service) — designing APIs, shipping cloud features, and maintaining the database systems that power companies like RBC, Bank of America, and Loblaws. On the research side, I've used generative models (Graph VAEs, GANs) to stress-test those same systems, surfacing failure modes that traditional test suites miss.
+My day-to-day is building backend infrastructure for [Db2 on Cloud](https://www.ibm.com/docs/en/db2-as-a-service) — designing APIs, shipping cloud database features, and maintaining the database systems that power companies like RBC, Bank of America, and Loblaws. On the research side, I've used generative models (Graph VAEs, GANs) to stress-test those same systems, surfacing failure modes that traditional test suites miss.
 
-Beyond IBM, I led a fairness-aware adversarial debiasing system for AI-driven hiring at the [AI4Good Mila Lab Fellowship](https://www.ai4goodlab.com/), and I've published at XAI, IJCNLP-AACL, and ICCC — on topics ranging from explainability in agentic AI to NLP-based humor detection.
+Beyond IBM, I led a fairness-aware adversarial debiasing system for AI-driven hiring at the [AI4Good Mila Lab](https://www.ai4goodlab.com/), and I've published at XAI, IJCNLP-AACL, and ICCC — on topics ranging from explainability in agentic AI to NLP-based humor detection.
 
 I studied [Engineering Science](https://engsci.utoronto.ca/program/what-is-engsci/) at the University of Toronto, majoring in Machine Learning with a Robotics minor.
