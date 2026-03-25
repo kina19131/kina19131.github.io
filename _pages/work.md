@@ -89,7 +89,7 @@ nav_order: 3
         <div class="proj-details-body">
 
           <h5>What I worked on</h5>
-          <p>Designed RESTful API contracts and implemented backend services in Go/Ruby with gRPC-based dispatching for new cloud backup features, enabling reliable database instance lifecycle management.Architected testing infrastructure for Db2 on Cloud across AWS and Azure, ensuring 99.9% reliability for enterprise database operations serving 500+ customers.</p>
+          <p>Designed RESTful API contracts and implemented backend services in Go/Ruby with gRPC-based dispatching for new cloud backup features, enabling reliable database instance lifecycle management. Architected testing infrastructure for Db2 on Cloud across AWS and Azure, ensuring 99.9% reliability for enterprise database operations serving 500+ customers.</p>
 
           <h5>Architecture</h5>
           <div class="byoc-diagram-wrap">
