@@ -29,7 +29,6 @@ nav_order: 3
         <span class="proj-tag">Adversarial ML</span>
         <span class="proj-tag">Fairness</span>
         <span class="proj-tag">Python</span>
-        <span class="proj-tag">React</span>
       </div>
 
       <div class="proj-stats">
@@ -50,7 +49,7 @@ nav_order: 3
           <p>Two models trained in opposition: a <strong>classifier</strong> that predicts profession from a r&eacute;sum&eacute;, and an <strong>adversary</strong> that tries to guess gender from the classifier&rsquo;s output. If the adversary succeeds, the classifier is penalized. Over training cycles, it learns to carry no gender signal. The adversary is removed &mdash; leaving a fairer model.</p>
 
           <h5>Platform</h5>
-          <p>Hiring teams upload their screening model &rarr; audit using Equal Opportunity and Equalized Odds metrics &rarr; debias via the adversarial pipeline &rarr; earn a Fair AI badge. Secured $3,000 in competitive funding and endorsement from leading researchers at Mila to continue the work. Compliant with PIPEDA, CHRA, and the EU AI Act. Humans always make the final call.</p>
+          <p>Hiring teams upload their screening model &rarr; audit using Equal Opportunity and Equalized Odds metrics &rarr; debias via the adversarial pipeline &rarr; earn a Fair AI badge. Secured $3,000 in competitive funding and endorsement from leading researchers at Mila. Compliant with PIPEDA, CHRA, and the EU AI Act. Humans always make the final call.</p>
 
           <p class="proj-team">Kina Kim, Fatima Masood, Shuting Xie, Iman Cheema, Aaina Garg &middot; AI4Good Mila Lab Fellowship &middot; Demo Day 2025</p>
         </div>
@@ -90,7 +89,7 @@ nav_order: 3
         <div class="proj-details-body">
 
           <h5>What I worked on</h5>
-          <p>Architected testing infrastructure for Db2 on Cloud across AWS and Azure, ensuring 99.9% reliability for enterprise database operations serving 500+ customers. Designed RESTful API contracts and implemented backend services in Go/Ruby with gRPC-based dispatching for new cloud backup features, enabling reliable database instance lifecycle management.</p>
+          <p>Designed RESTful API contracts and implemented backend services in Go/Ruby with gRPC-based dispatching for new cloud backup features, enabling reliable database instance lifecycle management.Architected testing infrastructure for Db2 on Cloud across AWS and Azure, ensuring 99.9% reliability for enterprise database operations serving 500+ customers.</p>
 
           <h5>Architecture</h5>
           <div class="byoc-diagram-wrap">
@@ -228,7 +227,7 @@ nav_order: 3
         <div class="proj-details-body">
 
           <h5>What I worked on</h5>
-          <p>Built a GAN-based SQL query generator producing 1,000+ synthetic test cases to expand traditional test sets, increasing edge-case detection by 15% and uncovering critical bugs in the Db2 query optimizer before production release. Also implemented a Random Forest anomaly detection model on time-series system metrics, achieving 72% precision in predicting faults before occurrence and reducing incident response time by 20%.</p>
+          <p>Led development and delivery of fix patches to address customer-reported issues and improve feature reliability, ensuring smooth version control and dependency management by identifying and replacing outdated packages. Contributed to new feature development, including external backup capacity. Designed and implemented a GAN-based SQL query generator that produced 1,000+ synthetic test cases, expanding traditional testing coverage, increasing edge-case detection by 15%, and surfacing critical bugs in the Db2 query optimizer prior to production release.</p>
 
           <h5>What the product does</h5>
           <ul>
