@@ -55,6 +55,13 @@
 - title: Publications
   type: time_table
   contents:
+    - title: <a href="/assets/pdf/ijcai26Jan20.pdf" target="_blank">Search and Human Perception of Creativity</a>
+      year: 2026
+      description:
+        - IJCAI 2026 (under review)
+        - "Co-authors: Kamron Zaidi, Jiaying Liu, Minahil Bakhtawar, Jiadong Liang, Adam Kabbara, Kina Kim, Ronaldo Luo, Michael Guerzhoy"
+        - Empirical evidence that human perception of creativity in chess and Wordle correlates with the mathematical structure of the search problem being solved — deeper, more complex search trees lead to moves perceived as brilliant or creative.
+
     - title: From Features to Actions — Explainability in Traditional and Agentic AI Systems
       year: 2026
       description:
@@ -65,12 +72,14 @@
       year: 2025
       description:
         - IJCNLP-AACL 2025
+        - "Co-authors: Jiadong Liang, Adam Kabbara, Jiaying Liu, Ronaldo Luo, Kina Kim, Michael Guerzhoy"
         - Analyzed cognitive biases in word-guessing strategies using NLP and statistical modeling.
 
     - title: Automatically Detecting Amusing Games in Wordle
       year: 2025
       description:
         - ICCC 2025
+        - "Co-authors: Ronaldo Luo, Gary Liang, Cindy Liu, Adam Kabbara, Minahil Bakhtawar, Kina Kim, Michael Guerzhoy"
         - Built GPT-3.5-based classifier to predict user amusement from 80k Reddit reactions, demonstrating computational creativity through humor detection.
 
     - title: Urban Search Trajectories Optimization for Unmanned Ground Vehicle with Deep RL and GNN
