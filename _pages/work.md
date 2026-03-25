@@ -9,29 +9,33 @@ nav_order: 3
 
 <div class="projects-page">
 
+  <!-- ── ACADEMIC ─────────────────────────────────────── -->
   <div class="proj-section">
     <div class="proj-section-label">Academic &middot; 2025</div>
 
     <div class="proj-card">
       <div class="proj-card-header">
-        <div>
+        <div class="proj-card-title-block">
           <div class="proj-card-title">fAI &mdash; Fair AI Hiring</div>
-          <div class="proj-card-sub">Adversarial debiasing system to detect and reduce gender bias in AI-powered resume screening. Tested on 27 professions.</div>
+          <div class="proj-card-sub">Adversarial debiasing system to detect and reduce gender bias in AI-powered resume screening. Built during AI4Good Mila Lab Fellowship.</div>
         </div>
-        <span class="proj-badge proj-badge-blue">Demo Day 2025</span>
+        <div class="proj-header-links">
+          <a href="{{ '/assets/pdf/fai_slides.pdf' | relative_url }}" target="_blank" rel="noopener" class="proj-header-chip">Slides ↗</a>
+        </div>
       </div>
 
       <div class="proj-tags">
-        <span class="proj-tag">Fairness</span>
+        <span class="proj-tag">PyTorch</span>
         <span class="proj-tag">Adversarial ML</span>
-        <span class="proj-tag">Pytorch</span>
+        <span class="proj-tag">Fairness</span>
         <span class="proj-tag">Python</span>
+        <span class="proj-tag">React</span>
       </div>
 
       <div class="proj-stats">
-        <div class="proj-stat"><span class="proj-stat-num">−23%</span><span class="proj-stat-lbl">gender bias</span></div>
+        <div class="proj-stat"><span class="proj-stat-num">−35%</span><span class="proj-stat-lbl">demographic disparity</span></div>
         <div class="proj-stat"><span class="proj-stat-num">&lt;2%</span><span class="proj-stat-lbl">accuracy lost</span></div>
-        <div class="proj-stat"><span class="proj-stat-num">27</span><span class="proj-stat-lbl">professions tested</span></div>
+        <div class="proj-stat"><span class="proj-stat-num">$3K</span><span class="proj-stat-lbl">competitive funding</span></div>
       </div>
 
       <details class="proj-details">
@@ -40,88 +44,191 @@ nav_order: 3
           <blockquote>
             <strong>Ignored as Erin. Hired as Mack.</strong> Erin McKelvey applied to dozens of tech jobs &mdash; no callbacks. She switched to the name <em>Mack</em>. Her response rate jumped to 70%. Today, Mack is a CEO.
           </blockquote>
-          <p>Only 15% of tech CEOs are women. Amazon built an AI resume screener trained on mostly male r&eacute;sum&eacute;s &mdash; it penalized terms like &ldquo;women&rsquo;s college.&rdquo; They scrapped it. We built fAI to prevent such discriminations.</p>
+          <p>Only 15% of tech CEOs are women. Amazon built an AI screener trained on mostly male r&eacute;sum&eacute;s &mdash; it penalized terms like &ldquo;women&rsquo;s college.&rdquo; They scrapped it. We built fAI to fix this.</p>
 
           <h5>How it works</h5>
           <p>Two models trained in opposition: a <strong>classifier</strong> that predicts profession from a r&eacute;sum&eacute;, and an <strong>adversary</strong> that tries to guess gender from the classifier&rsquo;s output. If the adversary succeeds, the classifier is penalized. Over training cycles, it learns to carry no gender signal. The adversary is removed &mdash; leaving a fairer model.</p>
 
           <h5>Platform</h5>
-          <p>Hiring teams upload their screening model &rarr; audit using Equal Opportunity and Equalized Odds metrics &rarr; debias via the adversarial pipeline &rarr; earn a Fair AI badge. Compliant with PIPEDA, CHRA, and the EU AI Act. Humans always make the final call.</p>
+          <p>Hiring teams upload their screening model &rarr; audit using Equal Opportunity and Equalized Odds metrics &rarr; debias via the adversarial pipeline &rarr; earn a Fair AI badge. Secured $3,000 in competitive funding and endorsement from leading researchers at Mila to continue the work. Compliant with PIPEDA, CHRA, and the EU AI Act. Humans always make the final call.</p>
 
-          <div class="proj-links">
-            <a href="{{ '/assets/pdf/fai_slides.pdf' | relative_url }}" target="_blank" rel="noopener">Slides (PDF) ↗</a>
-          </div>
-
-          <p class="proj-team">Kina Kim, Fatima Masood, Shuting Xie, Iman Cheema, Aaina Garg &middot; Demo Day 2025</p>
+          <p class="proj-team">Kina Kim, Fatima Masood, Shuting Xie, Iman Cheema, Aaina Garg &middot; AI4Good Mila Lab Fellowship &middot; Demo Day 2025</p>
         </div>
       </details>
     </div>
   </div>
 
+  <!-- ── IBM ────────────────────────────────────────────── -->
   <div class="proj-section">
     <div class="proj-section-label">IBM &middot; Current</div>
 
+    <!-- BYOC -->
     <div class="proj-card">
       <div class="proj-card-header">
-        <div>
+        <div class="proj-card-title-block">
           <div class="proj-card-title">Db2 as a Service &mdash; BYOC on Azure</div>
-          <div class="proj-card-sub">IBM Db2 SaaS deployed inside the customer&rsquo;s own Azure VPC &mdash; IBM manages the full service lifecycle while customers retain ownership of their data, security posture, and cloud infrastructure.</div>
+          <div class="proj-card-sub">IBM Db2 SaaS deployed inside the customer&rsquo;s own cloud VPC &mdash; IBM manages the full service lifecycle while customers retain complete ownership of their data and infrastructure.</div>
         </div>
-        <span class="proj-badge proj-badge-gray">GA June 2025</span>
+        <div class="proj-header-links">
+          <a href="https://www.ibm.com/new/announcements/ibm-db2-and-db2-warehouse-saas-on-azure-byoc" target="_blank" rel="noopener" class="proj-header-chip">Announcement ↗</a>
+          <a href="https://cloud.ibm.com/apidocs/db2-on-cloud-byoc" target="_blank" rel="noopener" class="proj-header-chip">API docs ↗</a>
+        </div>
       </div>
 
       <div class="proj-tags">
         <span class="proj-tag">Go</span>
-        <span class="proj-tag">IBM Cloud</span>
+        <span class="proj-tag">Ruby</span>
+        <span class="proj-tag">gRPC</span>
+        <span class="proj-tag">REST APIs</span>
+        <span class="proj-tag">AWS</span>
         <span class="proj-tag">Azure</span>
-        <span class="proj-tag">CI/CD pipelines</span>
-        <span class="proj-tag">Db2</span>
+        <span class="proj-tag">CI/CD</span>
       </div>
 
       <details class="proj-details">
         <summary>Read more</summary>
         <div class="proj-details-body">
+
           <h5>What I worked on</h5>
-          <p>I work on the cloud pipelines that deploy, operate, and monitor Db2 instances running inside customer Azure VPCs at scale &mdash; building toward zero manual intervention and reducing pipeline failures.</p>
+          <p>Architected testing infrastructure for Db2 on Cloud across AWS and Azure, ensuring 99.9% reliability for enterprise database operations serving 500+ customers. Designed RESTful API contracts and implemented backend services in Go/Ruby with gRPC-based dispatching for new cloud backup features, enabling reliable database instance lifecycle management.</p>
+
+          <h5>Architecture</h5>
+          <div class="byoc-diagram-wrap">
+            <svg viewBox="0 0 640 310" xmlns="http://www.w3.org/2000/svg" class="byoc-diagram" aria-label="BYOC architecture: customer VPC on left, credentials and access in centre, IBM control plane on right">
+              <defs>
+                <marker id="arr" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+                  <path d="M0,0 L7,3.5 L0,7 Z" class="byoc-arrow"/>
+                </marker>
+              </defs>
+
+              <!-- Customer Cloud outer -->
+              <rect x="8" y="28" width="230" height="270" rx="8" class="byoc-box-blue-outer"/>
+              <text x="18" y="47" class="byoc-label-outer">Customer Cloud (AWS / Azure / GCP)</text>
+
+              <!-- Customer VPC inner -->
+              <rect x="18" y="54" width="210" height="235" rx="6" class="byoc-box-blue-inner"/>
+              <text x="28" y="71" class="byoc-label-inner">Customer VPC</text>
+
+              <!-- App -->
+              <rect x="78" y="78" width="100" height="28" rx="4" class="byoc-node-blue"/>
+              <text x="128" y="97" class="byoc-node-text">Customer App</text>
+
+              <!-- Workloads box -->
+              <rect x="28" y="118" width="190" height="100" rx="5" class="byoc-box-workloads"/>
+              <text x="38" y="134" class="byoc-label-inner">Workloads</text>
+              <rect x="36" y="140" width="82" height="22" rx="3" class="byoc-node-blue"/>
+              <text x="77" y="156" class="byoc-node-text">Databases</text>
+              <rect x="126" y="140" width="82" height="22" rx="3" class="byoc-node-blue"/>
+              <text x="167" y="156" class="byoc-node-text">Deployments</text>
+              <rect x="36" y="168" width="82" height="22" rx="3" class="byoc-node-blue"/>
+              <text x="77" y="184" class="byoc-node-text">Autoscaling</text>
+              <rect x="126" y="168" width="82" height="22" rx="3" class="byoc-node-blue"/>
+              <text x="167" y="184" class="byoc-node-text">Logs / Metrics</text>
+
+              <!-- Nodes -->
+              <rect x="28" y="228" width="190" height="50" rx="5" class="byoc-box-workloads"/>
+              <text x="38" y="244" class="byoc-label-inner">Nodes</text>
+              <rect x="36" y="250" width="30" height="18" rx="3" class="byoc-node-blue"/>
+              <rect x="72" y="250" width="30" height="18" rx="3" class="byoc-node-blue"/>
+              <rect x="108" y="250" width="30" height="18" rx="3" class="byoc-node-blue"/>
+              <rect x="144" y="250" width="30" height="18" rx="3" class="byoc-node-blue"/>
+
+              <!-- App → Workloads -->
+              <line x1="128" y1="106" x2="128" y2="116" class="byoc-line" marker-end="url(#arr)"/>
+
+              <!-- Credentials box -->
+              <rect x="258" y="80" width="128" height="68" rx="6" class="byoc-box-yellow"/>
+              <text x="322" y="97" class="byoc-label-mid">Credentials</text>
+              <rect x="266" y="103" width="112" height="18" rx="3" class="byoc-node-yellow"/>
+              <text x="322" y="116" class="byoc-node-text-dark">IAM / Secret Key</text>
+              <rect x="266" y="123" width="112" height="18" rx="3" class="byoc-node-yellow"/>
+              <text x="322" y="136" class="byoc-node-text-dark">Cross-Account Connect</text>
+
+              <!-- Access box -->
+              <rect x="258" y="165" width="128" height="88" rx="6" class="byoc-box-yellow"/>
+              <text x="322" y="182" class="byoc-label-mid">Access</text>
+              <rect x="266" y="188" width="112" height="18" rx="3" class="byoc-node-yellow"/>
+              <text x="322" y="201" class="byoc-node-text-dark">Public Trusted IP</text>
+              <rect x="266" y="210" width="112" height="18" rx="3" class="byoc-node-yellow"/>
+              <text x="322" y="223" class="byoc-node-text-dark">VPC Peering</text>
+              <rect x="266" y="232" width="112" height="18" rx="3" class="byoc-node-yellow"/>
+              <text x="322" y="245" class="byoc-node-text-dark">VPN</text>
+
+              <!-- Arrows centre ↔ sides -->
+              <line x1="238" y1="195" x2="256" y2="195" class="byoc-line" marker-end="url(#arr)"/>
+              <line x1="258" y1="115" x2="240" y2="115" class="byoc-line" marker-end="url(#arr)"/>
+              <line x1="388" y1="115" x2="406" y2="115" class="byoc-line" marker-end="url(#arr)"/>
+              <line x1="406" y1="195" x2="388" y2="195" class="byoc-line" marker-end="url(#arr)"/>
+
+              <!-- IBM Control Plane outer -->
+              <rect x="406" y="28" width="226" height="270" rx="8" class="byoc-box-green-outer"/>
+              <text x="416" y="47" class="byoc-label-outer-green">IBM Control Plane</text>
+
+              <rect x="414" y="56" width="98" height="28" rx="4" class="byoc-node-green"/>
+              <text x="463" y="75" class="byoc-node-text">Dashboard</text>
+              <rect x="520" y="56" width="98" height="28" rx="4" class="byoc-node-green"/>
+              <text x="569" y="75" class="byoc-node-text">API / CLI</text>
+
+              <rect x="414" y="94" width="98" height="28" rx="4" class="byoc-node-green"/>
+              <text x="463" y="113" class="byoc-node-text">Jobs</text>
+              <rect x="520" y="94" width="98" height="28" rx="4" class="byoc-node-green"/>
+              <text x="569" y="113" class="byoc-node-text">Backend</text>
+
+              <rect x="414" y="132" width="204" height="28" rx="4" class="byoc-node-green"/>
+              <text x="516" y="151" class="byoc-node-text">Database Engine</text>
+
+              <rect x="414" y="170" width="204" height="28" rx="4" class="byoc-box-green-note"/>
+              <text x="516" y="189" class="byoc-node-text">Backup &amp; Recovery</text>
+
+              <rect x="414" y="208" width="204" height="28" rx="4" class="byoc-box-green-note"/>
+              <text x="516" y="227" class="byoc-node-text">Monitoring &amp; Alerts</text>
+
+              <rect x="414" y="246" width="204" height="40" rx="4" class="byoc-box-green-note"/>
+              <text x="516" y="262" class="byoc-node-text">AWS / Azure / GCP</text>
+              <text x="516" y="278" class="byoc-node-text">External Resources</text>
+            </svg>
+            <p class="byoc-diagram-caption">BYOC architecture: customer data stays inside their own VPC; IBM manages the control plane separately.</p>
+          </div>
 
           <h5>What the product does</h5>
           <ul>
             <li><strong>Compliance controls</strong> &mdash; database runs inside the customer&rsquo;s own VPC, meeting the strictest data sovereignty requirements</li>
-            <li><strong>Independent scaling</strong> &mdash; compute and storage scale separately; auto-increase ensures customers never run out of storage</li>
+            <li><strong>Independent scaling</strong> &mdash; compute and storage scale separately with auto-increase thresholds</li>
             <li><strong>High availability</strong> &mdash; 2-node setup across 2 availability zones with automated failover</li>
-            <li><strong>Data co-location</strong> &mdash; keeps data within the customer&rsquo;s Azure account, right next to their apps and resources</li>
+            <li><strong>Data co-location</strong> &mdash; keeps data within the customer&rsquo;s cloud account, co-located with their apps</li>
           </ul>
 
-          <div class="proj-links">
-            <a href="https://www.ibm.com/new/announcements/ibm-db2-and-db2-warehouse-saas-on-azure-byoc" target="_blank" rel="noopener">Announcement ↗</a>
-            <a href="https://cloud.ibm.com/apidocs/db2-on-cloud-byoc" target="_blank" rel="noopener">API docs ↗</a>
-          </div>
         </div>
       </details>
     </div>
 
+    <!-- Db2 SaaS -->
     <div class="proj-card">
       <div class="proj-card-header">
-        <div>
+        <div class="proj-card-title-block">
           <div class="proj-card-title">Db2 as a Service (IBM Cloud)</div>
           <div class="proj-card-sub">IBM&rsquo;s fully managed relational database for mission-critical OLTP workloads &mdash; high availability, automated backups, built-in ML capabilities, and enterprise-grade security on IBM Cloud and AWS.</div>
         </div>
-        <span class="proj-badge proj-badge-gray">IBM Cloud</span>
+        <div class="proj-header-links">
+          <a href="https://www.ibm.com/docs/en/db2-as-a-service?topic=overview" target="_blank" rel="noopener" class="proj-header-chip">Docs ↗</a>
+        </div>
       </div>
 
       <div class="proj-tags">
-        <span class="proj-tag">Go</span>
-        <span class="proj-tag">IBM Cloud</span>
         <span class="proj-tag">Python</span>
-        <span class="proj-tag">Anomaly detection</span>
+        <span class="proj-tag">GAN</span>
+        <span class="proj-tag">Random Forest</span>
+        <span class="proj-tag">Anomaly Detection</span>
+        <span class="proj-tag">Bash</span>
         <span class="proj-tag">Db2</span>
       </div>
 
       <details class="proj-details">
         <summary>Read more</summary>
         <div class="proj-details-body">
+
           <h5>What I worked on</h5>
-          <p>Developed ML-based anomaly detection to identify irregular patterns in Db2 commands &mdash; catching issues before they surface as customer-facing failures. Also enhanced system reliability and maintained cloud pipelines supporting Db2 on Cloud operations.</p>
+          <p>Built a GAN-based SQL query generator producing 1,000+ synthetic test cases to expand traditional test sets, increasing edge-case detection by 15% and uncovering critical bugs in the Db2 query optimizer before production release. Also implemented a Random Forest anomaly detection model on time-series system metrics, achieving 72% precision in predicting faults before occurrence and reducing incident response time by 20%.</p>
 
           <h5>What the product does</h5>
           <ul>
@@ -131,9 +238,6 @@ nav_order: 3
             <li><strong>Fully managed</strong> &mdash; automated monitoring, failovers, and geo-replicated disaster recovery backups</li>
           </ul>
 
-          <div class="proj-links">
-            <a href="https://www.ibm.com/docs/en/db2-as-a-service?topic=overview" target="_blank" rel="noopener">Docs ↗</a>
-          </div>
         </div>
       </details>
     </div>
@@ -160,20 +264,16 @@ nav_order: 3
   display: flex; align-items: flex-start;
   justify-content: space-between; gap: 1rem; margin-bottom: 0.75rem;
 }
+.proj-card-title-block { flex: 1; min-width: 0; }
 .proj-card-title { font-size: 1rem; font-weight: 600; color: var(--global-text-color); margin-bottom: 0.3rem; }
 .proj-card-sub { font-size: 0.85rem; color: var(--global-text-color-light); line-height: 1.55; }
-.proj-badge {
-  font-size: 0.7rem; padding: 0.2rem 0.6rem; border-radius: 20px;
-  white-space: nowrap; flex-shrink: 0; font-weight: 500;
+.proj-header-links { display: flex; flex-direction: column; gap: 0.35rem; flex-shrink: 0; align-items: flex-end; }
+.proj-header-chip {
+  font-size: 0.72rem; padding: 0.2rem 0.65rem; border-radius: 6px;
+  border: 1px solid var(--global-divider-color); color: var(--global-text-color-light);
+  text-decoration: none; white-space: nowrap; transition: border-color 0.15s, color 0.15s;
 }
-.proj-badge-blue {
-  background: rgba(70, 130, 180, 0.1); color: var(--global-theme-color);
-  border: 1px solid rgba(70, 130, 180, 0.25);
-}
-.proj-badge-gray {
-  background: var(--global-code-bg-color); color: var(--global-text-color-light);
-  border: 1px solid var(--global-divider-color);
-}
+.proj-header-chip:hover { border-color: var(--global-theme-color); color: var(--global-theme-color); }
 .proj-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.9rem; }
 .proj-tag {
   font-size: 0.72rem; padding: 0.2rem 0.6rem; border-radius: 20px;
@@ -207,24 +307,42 @@ nav_order: 3
 .proj-details-body p { margin-bottom: 0.6rem; }
 .proj-details-body ul { padding-left: 1.1rem; margin-bottom: 0.75rem; }
 .proj-details-body ul li { margin-bottom: 0.35rem; }
-.proj-links {
-  display: flex; gap: 0.6rem; flex-wrap: wrap;
-  margin-top: 0.85rem; padding-top: 0.85rem;
-  border-top: 1px solid var(--global-divider-color);
-}
-.proj-links a {
-  font-size: 0.78rem; padding: 0.25rem 0.7rem; border-radius: 6px;
-  border: 1px solid var(--global-divider-color); color: var(--global-text-color-light);
-  text-decoration: none; transition: border-color 0.15s, color 0.15s;
-}
-.proj-links a:hover { border-color: var(--global-theme-color); color: var(--global-theme-color); }
 .proj-team {
   font-size: 0.78rem; color: var(--global-text-color-light);
   margin-top: 0.85rem; padding-top: 0.75rem;
   border-top: 1px solid var(--global-divider-color);
 }
+
+/* ── BYOC Diagram ─────────────────────────── */
+.byoc-diagram-wrap {
+  margin: 0.75rem 0 1rem; border: 1px solid var(--global-divider-color);
+  border-radius: 8px; padding: 0.75rem; background: var(--global-code-bg-color);
+}
+.byoc-diagram { width: 100%; height: auto; display: block; }
+.byoc-diagram-caption {
+  font-size: 0.72rem; color: var(--global-text-color-light);
+  text-align: center; margin: 0.5rem 0 0; font-style: italic;
+}
+.byoc-box-blue-outer  { fill: none; stroke: #3b82f6; stroke-width: 1.5; stroke-dasharray: 5 3; }
+.byoc-box-blue-inner  { fill: none; stroke: #60a5fa; stroke-width: 1; stroke-dasharray: 3 2; }
+.byoc-box-workloads   { fill: rgba(59,130,246,0.07); stroke: #60a5fa; stroke-width: 0.75; }
+.byoc-node-blue       { fill: #2563eb; }
+.byoc-box-yellow      { fill: rgba(234,179,8,0.12); stroke: #ca8a04; stroke-width: 1.2; }
+.byoc-node-yellow     { fill: rgba(234,179,8,0.25); stroke: #ca8a04; stroke-width: 0.5; }
+.byoc-box-green-outer { fill: rgba(34,197,94,0.07); stroke: #16a34a; stroke-width: 1.5; stroke-dasharray: 5 3; }
+.byoc-node-green      { fill: #15803d; }
+.byoc-box-green-note  { fill: rgba(34,197,94,0.12); stroke: #16a34a; stroke-width: 0.75; }
+.byoc-line            { stroke: #94a3b8; stroke-width: 1; fill: none; }
+.byoc-arrow           { fill: #94a3b8; }
+.byoc-label-outer       { font-size: 9px; fill: #60a5fa; font-weight: 600; text-anchor: start; }
+.byoc-label-outer-green { font-size: 9px; fill: #4ade80; font-weight: 600; text-anchor: start; }
+.byoc-label-inner       { font-size: 8px; fill: #93c5fd; font-weight: 500; text-anchor: start; }
+.byoc-label-mid         { font-size: 9px; fill: #fbbf24; font-weight: 600; text-anchor: middle; }
+.byoc-node-text         { font-size: 8px; fill: #ffffff; text-anchor: middle; dominant-baseline: middle; }
+.byoc-node-text-dark    { font-size: 8px; fill: #78350f; text-anchor: middle; dominant-baseline: middle; }
+
 @media (max-width: 480px) {
   .proj-card-header { flex-direction: column; gap: 0.5rem; }
-  .proj-badge { align-self: flex-start; }
+  .proj-header-links { flex-direction: row; }
 }
 </style>
