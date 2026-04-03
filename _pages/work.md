@@ -32,7 +32,7 @@ nav_order: 3
       </div>
 
       <div class="proj-stats">
-        <div class="proj-stat"><span class="proj-stat-num">−35%</span><span class="proj-stat-lbl">demographic disparity</span></div>
+        <div class="proj-stat"><span class="proj-stat-num">−23%</span><span class="proj-stat-lbl">demographic disparity</span></div>
         <div class="proj-stat"><span class="proj-stat-num">&lt;2%</span><span class="proj-stat-lbl">accuracy lost</span></div>
         <div class="proj-stat"><span class="proj-stat-num">$3K</span><span class="proj-stat-lbl">competitive funding</span></div>
       </div>
