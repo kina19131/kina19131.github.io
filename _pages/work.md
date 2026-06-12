@@ -321,6 +321,16 @@ nav_order: 3
           <h5>System</h5>
           <p>Worked on inter-module communication between the Application Processor (AP) and Multipoint Control Unit (MCU) over Ethernet. Wrote data handler scripts to pack and unpack Control Area Network (CAN) frames passing through the pipeline.</p>
 
+          <h5>Demo</h5>
+          <div class="proj-video-grid">
+            <video controls preload="none" class="proj-video">
+              <source src="{{ '/assets/video/output.mp4' | relative_url }}" type="video/mp4">
+            </video>
+            <video controls preload="none" class="proj-video">
+              <source src="{{ '/assets/video/output2.mp4' | relative_url }}" type="video/mp4">
+            </video>
+          </div>
+
           <p class="proj-team">Research Intern &middot; RUBIS Lab, School of Computer Science and Engineering &middot; May&ndash;Jul 2020</p>
         </div>
       </details>
@@ -391,6 +401,15 @@ nav_order: 3
 .proj-details-body p { margin-bottom: 0.6rem; }
 .proj-details-body ul { padding-left: 1.1rem; margin-bottom: 0.75rem; }
 .proj-details-body ul li { margin-bottom: 0.35rem; }
+.proj-video-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin: 0.5rem 0 0.75rem;
+}
+.proj-video {
+  width: 100%; border-radius: 6px; border: 1px solid var(--global-divider-color);
+}
+@media (max-width: 480px) {
+  .proj-video-grid { grid-template-columns: 1fr; }
+}
 .proj-team {
   font-size: 0.78rem; color: var(--global-text-color-light);
   margin-top: 0.85rem; padding-top: 0.75rem;
