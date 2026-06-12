@@ -242,6 +242,91 @@ nav_order: 3
     </div>
 
   </div>
+
+  <!-- ── UNIVERSITY OF WATERLOO ───────────────────────── -->
+  <div class="proj-section">
+    <div class="proj-section-label">University of Waterloo &middot; 2018&ndash;2019</div>
+
+    <div class="proj-card">
+      <div class="proj-card-header">
+        <div class="proj-card-title-block">
+          <div class="proj-card-title">AR Exhibit Scanner &mdash; Computer Museum</div>
+          <div class="proj-card-sub">Image-recognition AR app built with Unity and Vuforia to let museum visitors scan exhibits and surface contextual information and media overlays in real time.</div>
+        </div>
+        <div class="proj-header-links">
+          <a href="{{ '/assets/pdf/Kina Kim Unity + Vuforia AR development documentation.pdf' | relative_url }}" target="_blank" rel="noopener" class="proj-header-chip">Docs ↗</a>
+        </div>
+      </div>
+
+      <div class="proj-tags">
+        <span class="proj-tag">Unity</span>
+        <span class="proj-tag">Vuforia</span>
+        <span class="proj-tag">C#</span>
+        <span class="proj-tag">Android</span>
+        <span class="proj-tag">Cloud Recognition</span>
+      </div>
+
+      <details class="proj-details">
+        <summary>Read more</summary>
+        <div class="proj-details-body">
+
+          <h5>What it does</h5>
+          <p>Visitors point their phone at a museum artifact; the app recognises the image against a Vuforia cloud database and overlays information boxes, video, or audio. Recognition and metadata are managed entirely through Vuforia&rsquo;s cloud target API, so new exhibits can be added without a re-build.</p>
+
+          <h5>How it was built</h5>
+          <p>Configured Unity with the Vuforia AR SDK and an AR Camera scene, wired up Cloud Recognition with Vuforia access keys, and handled metadata-driven media playback (mp4 / mp3 URLs) inside C# scripts. Navigated a series of Android build issues &mdash; SDK path mismatches, Gradle failures, and API-level mismatches &mdash; and documented every fix for the team.</p>
+
+          <h5>Next steps (left for the team)</h5>
+          <ul>
+            <li>Responsive information box sizing across Android screen sizes</li>
+            <li>Main menu screen and in-app exit button</li>
+            <li>App Store distribution and visitor-facing setup poster</li>
+          </ul>
+
+          <p class="proj-team">Project Assistant &middot; Computer Museum, University of Waterloo &middot; Jun 2018&ndash;Jun 2019</p>
+        </div>
+      </details>
+    </div>
+
+  </div>
+
+  <!-- ── SNU RUBIS LAB ─────────────────────────────────── -->
+  <div class="proj-section">
+    <div class="proj-section-label">Seoul National University &middot; 2020</div>
+
+    <div class="proj-card">
+      <div class="proj-card-header">
+        <div class="proj-card-title-block">
+          <div class="proj-card-title">Autonomous Vehicle Research &mdash; RUBIS Lab</div>
+          <div class="proj-card-sub">Remote lab infrastructure and CAN bus data handling for autonomous vehicle systems at Seoul National University&rsquo;s Real-Time Ubiquitous Systems Laboratory.</div>
+        </div>
+      </div>
+
+      <div class="proj-tags">
+        <span class="proj-tag">Docker</span>
+        <span class="proj-tag">Bash</span>
+        <span class="proj-tag">Python</span>
+        <span class="proj-tag">VNC</span>
+        <span class="proj-tag">CAN Bus</span>
+        <span class="proj-tag">Autonomous Vehicles</span>
+      </div>
+
+      <details class="proj-details">
+        <summary>Read more</summary>
+        <div class="proj-details-body">
+
+          <h5>Openlab</h5>
+          <p>Built a Dockerfile to activate a VNC server on Ubuntu, enabling a browser-based GUI for remote users. Wrote bash scripts to automate the full autonomous vehicle launch sequence, and packaged them as a one-click desktop icon so operators could start and monitor vehicle status without touching the command line.</p>
+
+          <h5>System</h5>
+          <p>Worked on inter-module communication between the Application Processor (AP) and Multipoint Control Unit (MCU) over Ethernet. Wrote data handler scripts to pack and unpack Control Area Network (CAN) frames passing through the pipeline.</p>
+
+          <p class="proj-team">Research Intern &middot; RUBIS Lab, School of Computer Science and Engineering &middot; May&ndash;Jul 2020</p>
+        </div>
+      </details>
+    </div>
+
+  </div>
 </div>
 
 <style>
