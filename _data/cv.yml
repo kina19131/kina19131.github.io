@@ -31,6 +31,18 @@
         - Architected testing infrastructure for Db2 on Cloud across AWS and Azure, ensuring 99.9% reliability for 500+ enterprise customers.
         - Designed RESTful API contracts and implemented backend services in Go/Ruby with gRPC-based dispatching for new cloud backup features.
 
+    - title: Research Collaborator, AI/ML Safety & Robustness
+      institution: <a href="https://www.sfu.ca/fas/computing/people/faculty/faculty-members/linyi-li.html" target="_blank">Prof. Linyi Li</a>, Simon Fraser University
+      year: 2026 - Present
+      description:
+        - Conducting ongoing research on AI/ML safety and robustness.
+
+    - title: Research Collaborator
+      institution: <a href="https://scholar.google.ca/citations?user=chcz7RMAAAAJ&hl=ja" target="_blank">Dr. Shaina Raza</a>, Vector Institute
+      year: 2026
+      description:
+        - Collaborated on applied AI research at the Vector Institute.
+
     - title: Fellowship — Algorithmic Fairness & Responsible AI
       institution: AI4Good Mila Lab, Toronto, Canada
       year: 2025
