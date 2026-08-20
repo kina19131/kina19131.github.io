@@ -24,6 +24,6 @@ My day-to-day is building backend infrastructure for [Db2 on Cloud](https://www.
 
 Beyond IBM, I led a fairness-aware adversarial debiasing system for AI-driven hiring at the [AI4Good Mila Lab](https://www.ai4goodlab.com/), and I've published at IJCNLP-AACL, and ICCC — on topics ranging from explainability in agentic AI to NLP-based humor detection.
 
-I'm always interested in pushing boundaries and exploring new things, which is what draws me to research — I've been fortunate to pursue this with [Michael Guerzhoy](https://www.cs.toronto.edu/~guerzhoy/), [Dr. Shaina Raza](https://scholar.google.ca/citations?user=chcz7RMAAAAJ&hl=ja), and [Prof. Linyi Li](https://www.sfu.ca/fas/computing/people/faculty/faculty-members/linyi-li.html).
+I'm always interested in pushing boundaries and exploring new things, which is what draws me to research — I've been fortunate to pursue this with [Prof. Michael Guerzhoy](https://www.cs.toronto.edu/~guerzhoy/), [Dr. Shaina Raza](https://scholar.google.ca/citations?user=chcz7RMAAAAJ&hl=ja), and [Prof. Linyi Li](https://www.sfu.ca/fas/computing/people/faculty/faculty-members/linyi-li.html).
 
 I studied [Engineering Science](https://engsci.utoronto.ca/program/what-is-engsci/) at the University of Toronto, majoring in Machine Learning with a Robotics minor.
