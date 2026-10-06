@@ -1,92 +1,99 @@
 {
   "basics": {
-    "name": "Kina Kim",
-    "Title": "Developer",
+    "name": "Kina (Gi Yeon) Kim",
+    "Title": "Software Engineer, Applied ML",
     "image": "",
     "email": "kina19131@gmail.com",
     "url": "https://kina19131.github.io",
-    "summary": "Software Engineer who loves being the bridge between Tech and Society",
+    "summary": "I build machine learning for database systems on the Db2 Query Optimization team at IBM, with research interests in ML reliability, evaluation, and robustness.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Toronto",
+      "region": "Ontario",
+      "countryCode": "CA"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "giyeonkinakim",
+        "url": "https://www.linkedin.com/in/giyeonkinakim"
       }
     ]
   },
-  "skills": [
+  "interests": [
     {
-      "name": "Technical",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Research Interests",
+      "icon": "fa-solid fa-tag",
       "keywords": [
-        "Python",
-        "Go",
-        "IBM Cloud",
-        "PyTorch",
-        "Bash",
-        ""
-      ]
-    },
-    {
-      "name": "Interpersonal",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Adaptability",
-        "Problem-Solving",
-        "Innovation",
-        "Collaboration",
-        "Communication",
-        "User-focused"
+        "AI Reliability & Safety",
+        "ML Evaluation",
+        "Robustness",
+        "Interpretability",
+        "Reliable Foundation Models",
+        "ML for Database Systems"
       ]
     }
   ],
   "work": [
     {
-      "name": "International Business Machine",
-      "position": "Software Developer, Db2 Cloud",
-      "url": "https://www.ibm.com/ca-en?utm_content=SRCWW&p1=Search&p4=43700081273983553&p5=e&p9=58700008827428331&gad_source=1&gclid=EAIaIQobChMI-N-8os6SiwMVpl1_AB2Usid8EAAYASAAEgI9YfD_BwE&gclsrc=aw.ds",
-      "startDate": "2024-06-01",
+      "name": "IBM — Db2 Query Optimization",
+      "position": "Software Engineer, Applied ML",
+      "url": "https://www.ibm.com/docs/en/db2/12.1.x?topic=optimization-ai-query-optimizer",
+      "startDate": "2026-01-01",
       "endDate": "present",
-      "summary": "As a Software Engineer on the Db2 on Cloud team, I led the development and maintenance of cloud pipelines to ensure seamless and efficient software operations. I worked on enhancing system reliability using Machine Learning to analyze and resolve anomalies in Db2 commands, improving the overall stability of the system.",
+      "summary": "Search · Representation Learning · ML Infrastructure",
       "highlights": [
-        "Led the development of cloud pipelines to reduce failure and manual intervention",
-        "Enhanced system reliability using Machine Learning for anomaly detection in Db2 commands",
-        "Ensured stable cloud operations and better customer experiences"
+        "Conducting an empirical study of how to represent and search large spaces of equivalent query transformations, comparing structured representations, learned embeddings, and optimization methods such as Bayesian optimization for integration into the Db2 query compiler.",
+        "Building ML training infrastructure embedded within Db2 to support model training and deployment directly alongside the database engine."
+      ]
+    },
+    {
+      "name": "AI4Good at Mila",
+      "position": "Applied ML Fellow, Algorithmic Fairness",
+      "url": "https://www.ai4goodlab.com/",
+      "startDate": "2025-05-01",
+      "endDate": "2025-07-01",
+      "summary": "Adversarial Learning · Fairness · Evaluation",
+      "highlights": [
+        "Investigated how gender bias encoded in learned language representations can propagate into occupation classification, and implemented an adversarial debiasing approach that reduced TPR disparity across demographic groups by 23% while keeping accuracy within 2% of baseline.",
+        "Presented the methodology and findings to researchers at Vector Institute and Mila, as well as industry mentors.",
+        "The project was later selected for continued support through a sister program after a separate proposal submission."
+      ]
+    },
+    {
+      "name": "IBM — Db2 on Cloud",
+      "position": "Software Engineer, Applied ML",
+      "url": "https://www.ibm.com/docs/en/db2-as-a-service",
+      "startDate": "2024-06-01",
+      "endDate": "2025-12-31",
+      "summary": "Generative Modeling · Cloud Infrastructure",
+      "highlights": [
+        "Built a Graph VAE framework to generate 1,000+ semantically diverse SQL variants around known failure cases, enabling validation across a neighborhood of related inputs rather than a single reported instance.",
+        "Architected testing infrastructure for Db2 on Cloud across AWS and Azure, ensuring 99.9% reliability for 500+ enterprise customers.",
+        "Designed RESTful API contracts and implemented backend services in Go/Ruby with gRPC-based dispatching for new cloud backup features."
       ]
     },
     {
       "name": "Royal Bank of Canada",
-      "position": "Data Scientist",
+      "position": "Data Scientist Intern",
       "url": "https://www.rbc.com",
       "startDate": "2023-09-01",
       "endDate": "2023-12-01",
-      "summary": "During my internship at RBC, I led a Machine Learning project aimed at predicting customer churn. I developed strategies to identify trends and presented a prototype model for churn prediction, which was successfully integrated into the company's business operations. I also performed data processing and analysis using Hadoop and SQL to extract insights.",
+      "summary": "Predictive Modeling · Data Engineering",
       "highlights": [
-        "Scoped and led a high-impact ML project focused on predicting customer churn",
-        "Utilized Hadoop and SQL for ETL processes and large dataset analysis",
-        "Developed and presented a predictive churn model to enhance customer retention",
-        "Collaborated with IT and Product teams for seamless integration of data insights"
+        "Scoped and led an ML project predicting customer churn, presenting a prototype model that was integrated into business operations.",
+        "Used Hadoop and SQL for ETL and large-scale dataset analysis."
       ]
     },
     {
-      "name": "International Business Machine",
-      "position": "Software Developer, Db2 Causal Analyst",
-      "url": "https://www.ibm.com/ca-en?utm_content=SRCWW&p1=Search&p4=43700081273983553&p5=e&p9=58700008827428331&gad_source=1&gclid=EAIaIQobChMI-N-8os6SiwMVpl1_AB2Usid8EAAYASAAEgI9YfD_BwE&gclsrc=aw.ds",
+      "name": "IBM — Db2",
+      "position": "Software Engineer, ML Testing",
+      "url": "https://www.ibm.com/products/db2",
       "startDate": "2022-05-01",
       "endDate": "2023-05-01",
-      "summary": "As a Software Engineer focusing on testing and causal analysis, I contributed to the design of large-scale database systems and optimized system reliability. My role included developing automated testing pipelines, implementing anomaly detection systems, and training Machine Learning models to enhance database performance.",
+      "summary": "Generative Testing · Anomaly Detection · ML Systems",
       "highlights": [
-        "Developed automated testing pipelines using Bash scripting, reducing manual testing",
-        "Analyzed and maintained IBM’s pureScale Db2 database to prioritize system availability",
-        "Trained GAN models to generate efficient syntax-aware database queries",
-        "Designed an anomaly detection system to proactively identify irregularities"
+        "Trained a syntax-aware GAN to generate realistic SQL queries for reliability and performance testing of large-scale distributed databases.",
+        "Built an Isolation Forest model over distributed Db2 logs, achieving 72% precision in fault prediction and reducing incident response time by 8%."
       ]
     }
   ],
@@ -95,48 +102,65 @@
       "institution": "University of Toronto",
       "location": "Toronto, ON, Canada",
       "url": "https://www.utoronto.ca/",
-      "area": "Engineering Science, Machine Intelligence",
-      "studyType": "Bachelor",
+      "area": "Engineering Science, Machine Intelligence (Robotics Minor)",
+      "studyType": "BASc",
       "startDate": "2019-09-01",
-      "endDate": "2024-06-01"
+      "endDate": "2024-06-01",
+      "courses": [
+        "Senior Thesis: Urban Search Trajectory Optimization for UGVs with Deep RL and GNNs"
+      ]
     }
   ],
-  "Papers": [
+  "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "From Features to Actions: Explainability in Traditional and Agentic AI Systems",
+      "publisher": "FTC",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2602.06841",
+      "summary": "Chaduvula, Ho, Kim, Narayanan, Radwan, Alinoori, Garg, Ramachandram, Raza"
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Semantic, Orthographic, and Phonological Biases in Humans' Wordle Gameplay",
+      "publisher": "Findings of IJCNLP-AACL",
+      "releaseDate": "2025",
+      "url": "https://arxiv.org/abs/2411.18634",
+      "summary": "Liang, Kabbara, Liu, Luo, Kim, Guerzhoy"
+    },
+    {
+      "name": "Automatically Detecting Amusing Games in Wordle",
+      "publisher": "ICCC",
+      "releaseDate": "2025",
+      "url": "https://arxiv.org/abs/2506.05415",
+      "summary": "Luo, Liang, Liu, Kabbara, Bakhtawar, Kim, Guerzhoy"
     }
   ],
-  "interests": [
+  "skills": [
     {
-      "name": "ML/AI",
-      "icon": "fa-solid fa-tag",
+      "name": "ML / Research",
+      "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Explainable AI/ML",
-        "Generative AI",
-        "Graphical Neural Network",
+        "PyTorch",
+        "HuggingFace Transformers",
+        "LLM Fine-tuning",
         "Reinforcement Learning",
-        "Robotics"
+        "Generative Modeling",
+        "Adversarial Learning",
+        "Model Evaluation"
       ]
     },
     {
-      "name": "Software",
-      "icon": "fa-solid fa-tag",
+      "name": "Engineering",
+      "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Cloud",
-        "Reliability",
-        "Automation",
-        "Performance"
+        "Python",
+        "Go",
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Azure",
+        "Spark",
+        "Weights & Biases",
+        "MLflow"
       ]
     }
   ],
