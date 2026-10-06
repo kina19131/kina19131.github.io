@@ -9,6 +9,48 @@ nav_order: 3
 
 <div class="projects-page">
 
+  <!-- ── IBM: QUERY OPTIMIZATION ──────────────────────── -->
+  <div class="proj-section">
+    <div class="proj-section-label">IBM &middot; Db2 Query Optimization &middot; Current</div>
+
+    <div class="proj-card">
+      <div class="proj-card-header">
+        <div class="proj-card-title-block">
+          <div class="proj-card-title">Db2 AI Query Optimizer</div>
+          <div class="proj-card-sub">Machine learning inside Db2&rsquo;s cost-based optimizer &mdash; neural networks learn data distributions and column correlations to produce more accurate cardinality estimates and better access plans.</div>
+        </div>
+        <div class="proj-header-links">
+          <a href="https://www.ibm.com/docs/en/db2/12.1.x?topic=optimization-ai-query-optimizer" target="_blank" rel="noopener" class="proj-header-chip">Docs ↗</a>
+        </div>
+      </div>
+
+      <div class="proj-tags">
+        <span class="proj-tag">Query Optimization</span>
+        <span class="proj-tag">Learned Embeddings</span>
+        <span class="proj-tag">Bayesian Optimization</span>
+        <span class="proj-tag">Cardinality Estimation</span>
+        <span class="proj-tag">ML Infrastructure</span>
+        <span class="proj-tag">Db2</span>
+      </div>
+
+      <details class="proj-details">
+        <summary>Read more</summary>
+        <div class="proj-details-body">
+
+          <h5>Research</h5>
+          <p>Conducting an empirical study of how to represent and search large spaces of equivalent query transformations, comparing structured representations, learned embeddings, and optimization methods such as Bayesian optimization for integration into the Db2 query compiler.</p>
+
+          <h5>Engineering</h5>
+          <p>Building ML training infrastructure embedded within Db2 to support model training and deployment directly alongside the database engine.</p>
+
+          <h5>Why it matters</h5>
+          <p>A query optimizer&rsquo;s plan is only as good as its row-count estimates. Traditional statistics assume columns are independent, so correlated predicates can throw estimates off by orders of magnitude. Learned models capture those correlations, and searching the space of query rewrites more effectively lets the compiler reach better plans.</p>
+
+        </div>
+      </details>
+    </div>
+  </div>
+
   <!-- ── ACADEMIC ─────────────────────────────────────── -->
   <div class="proj-section">
     <div class="proj-section-label">Academic &middot; 2025</div>
@@ -57,9 +99,9 @@ nav_order: 3
     </div>
   </div>
 
-  <!-- ── IBM ────────────────────────────────────────────── -->
+  <!-- ── IBM: DB2 ON CLOUD ────────────────────────────── -->
   <div class="proj-section">
-    <div class="proj-section-label">IBM &middot; Current</div>
+    <div class="proj-section-label">IBM &middot; Db2 on Cloud &middot; 2024&ndash;2026</div>
 
     <!-- BYOC -->
     <div class="proj-card">

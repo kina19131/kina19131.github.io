@@ -23,9 +23,16 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Software Engineer, Machine Learning
+    - title: Software Engineer, Machine Learning — Db2 Query Optimization
       institution: IBM, Toronto, Canada
-      year: 2024 - Present
+      year: 2026 - Present
+      description:
+        - Conducting an empirical study of how to represent and search large spaces of equivalent query transformations, comparing structured representations, learned embeddings, and optimization methods such as Bayesian optimization for integration into the Db2 query compiler.
+        - Building ML training infrastructure embedded within Db2 to support model training and deployment directly alongside the database engine.
+
+    - title: Software Engineer, Machine Learning — Db2 on Cloud
+      institution: IBM, Toronto, Canada
+      year: 2024 - 2026
       description:
         - Built GVAE-based synthetic query generator producing variants of failing SQL queries, reducing regression bugs by 12%.
         - Architected testing infrastructure for Db2 on Cloud across AWS and Azure, ensuring 99.9% reliability for 500+ enterprise customers.
